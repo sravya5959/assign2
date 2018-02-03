@@ -44,5 +44,5 @@ int main()
 	{
 		printf("Waiting for interrupt\n");
 	}
-
+	return 0;
 }
