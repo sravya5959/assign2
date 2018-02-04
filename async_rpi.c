@@ -36,10 +36,10 @@ int main()
 
 	//setting interrupt handlers
 	
-	wiringPiISR(READ_PIN_1, INT_EDGE_BOTH, &interrupt)
-	wiringPiISR(READ_PIN_2, INT_EDGE_BOTH, &interrupt)
-	wiringPiISR(READ_PIN_3, INT_EDGE_BOTH, &interrupt)
-	wiringPiISR(READ_PIN_4, INT_EDGE_BOTH, &interrupt)
+	wiringPiISR(READ_PIN_1, INT_EDGE_BOTH, &interrupt);
+	wiringPiISR(READ_PIN_2, INT_EDGE_BOTH, &interrupt);
+	wiringPiISR(READ_PIN_3, INT_EDGE_BOTH, &interrupt);
+	wiringPiISR(READ_PIN_4, INT_EDGE_BOTH, &interrupt);
 	while(1)
 	{
 		printf("Waiting for interrupt\n");
